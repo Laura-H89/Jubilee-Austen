@@ -1,6 +1,6 @@
 	/***** BASE STYLES *****/
     .body {
-        color: #2b2b2b;
+        color: #5e5e5e;
         font-family: 'Source Sans Pro', sans-serif;
     }
 
@@ -81,9 +81,9 @@
         padding: 0 50px;
     }
 
-    /***** ABOUT WORK *****/
+    /***** SKILLS *****/
     #skills {
-        background-color: #F9CEB7;
+        background-color: #f5f5f5;
         text-align: center;
     }
 
@@ -120,7 +120,7 @@
 
     /***** CONTACT *****/
     #contact {
-        background-color: #ebebeb;
+        background-color: #f9efef;
     }
 
     #contact .content-wrapper {
@@ -190,6 +190,51 @@
 
     #contact ul img {
         padding-right: 40px;
+    }
+
+    /****** Projects Page Styles ******/
+    /****** Projects Page Header Styles ******/
+    .projects-page-hero {
+        background-color: #f9efef;
+    }
+
+    /****** Projects Page Projects Styles ******/
+    #work {
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+
+    #work .content-wrapper {
+        padding: 115px 0;
+    }
+
+    #work .projects {
+        float: left;
+        width: 400px;
+    }
+
+    #work img {
+        width: 300px;
+        padding-bottom: 30px;
+        filter: drop-shadow(1px 2px 6px lightgrey);
+    }
+
+    #work h2 {
+        font-family: 'Lora', serif;
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+
+    #work h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #work p {
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        line-height: 40px;
+        padding: 0 50px;
     }
 
 /* ==========================================================================
